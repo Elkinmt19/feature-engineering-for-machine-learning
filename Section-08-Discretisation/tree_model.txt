@@ -1,5 +1,6 @@
 digraph Tree {
-node [shape=box] ;
+node [shape=box, fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
 0 [label="X[0] <= 15.5\ngini = 0.474\nsamples = 916\nvalue = [563, 353]"] ;
 1 [label="X[0] <= 11.75\ngini = 0.5\nsamples = 90\nvalue = [46, 44]"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
